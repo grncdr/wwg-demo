@@ -11,13 +11,14 @@ repo shows taking this test runner from serial to concurrently running tests.
 
 ## The "demo"
 
-1. Get the code: `go get github.com/grncdr/wwg-demo`, 
-2. Change to the package dir: `cd $GOPATH/src/github.com/grncdr/wwg-demo`
-3. Check out the "before" version `git checkout step-0`
-4. Run the tests: `go test`. Observe the time taken.
-5. Check out the "after" version `git checkout master`
-6. Run the tests again: `go test`. Observe the speedup.
-7. Inspect what changed with `git show step-1`, `git show step-2` etc. 
+1. Get the code: `go get github.com/grncdr/wwg-demo`.
+2. Change to the package dir: `cd $GOPATH/src/github.com/grncdr/wwg-demo`.
+3. Fetch git tags for easier navigation: `git fetch`.
+4. Check out the "before" version `git checkout step-0`.
+5. Run the tests: `go test`. Observe the time taken.
+6. Check out the "after" version `git checkout master`.
+7. Run the tests again: `go test`. Observe the speedup.
+8. Inspect what changed with `git show step-1`, `git show step-2` etc. 
 
 ## License
 
